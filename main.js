@@ -49,9 +49,9 @@ const point3 = {x: 300, y: 130 };
     }
 
 function animate() {
-     ctx.fillStyle = "orange";
-     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     // ctx.fillRect(10, temp, 50, 50);
+    ctx.fillStyle = "orange";
     ctx.fillRect(x, y, prShir, prVys);
     
     
