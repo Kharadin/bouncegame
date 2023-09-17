@@ -52,9 +52,10 @@ function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     // ctx.fillRect(10, temp, 50, 50);
     ctx.fillStyle = "orange";
-    
+
     ctx.fillRect(x, y, prShir, prVys);
     
+    drawTriangle(ctx, point1, point2, point3, 'red');
     
      
     x = x+vx;
@@ -84,7 +85,6 @@ function animate() {
     
 
 
-    drawTriangle(ctx, point1, point2, point3, 'red');
 
     requestAnimationFrame(animate);
 
