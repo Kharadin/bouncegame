@@ -13,7 +13,7 @@ let x = 400;
 let y= 0;
 
 
-ctx.fillStyle ="red"
+ctx.fillStyle ="orange"
 
 // скорость по горизонтали и вертикали
 let vx=2;
@@ -83,7 +83,7 @@ function animate() {
     
 
 
-    drawTriangle(ctx, point1, point2, point3, 'orange');
+    drawTriangle(ctx, point1, point2, point3, 'red');
 
     requestAnimationFrame(animate);
 
